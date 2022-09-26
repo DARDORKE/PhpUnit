@@ -1,7 +1,16 @@
-Reprenez votre classe CalculatriceTest pour y intégrer une méthode fournisseuse de
-données renvoyant un tableau de 3 tableaux pour tester le carré des valeurs 2, 4 et 5.
+Dans le cadre du développement d'une application web au sein de votre entreprise,
+vous avez la charge de mettre en place un message de bienvenue personnalisé
+en fonction du genre de l'utilisateur.
 
-Utilisez l'annotation @dataProvider pour préciser à votre méthode de test la méthode
-fournisseuse de données précédemment mise en place.
+Ainsi :
 
-Utilisez la méthode assertSame() pour tester les différentes valeurs ainsi fournies.
+Une femme aura un message du type « Bienvenue Mme ... » suivi de son nom,
+
+Un homme aura un message du type « Bienvenue M. ... » suivi de son nom.
+
+La première partie de cet exercice consistera donc à implémenter cette méthode
+au sein d'une classe WelcomeMessage dans le répertoire src/Util de votre application Symfony.
+
+Dans une classe dédiée, implémentez une méthode chargée de tester la méthode écrite
+dans la première partie de l'exercice et utilisant un Data Provider pour tester toutes
+les configurations possibles.
