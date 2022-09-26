@@ -1,0 +1,7 @@
+Installez le composant PHPUnit Bridge au sein de votre projet Symfony.
+
+Exécutez la commande PHPUnit ainsi générée pour télécharger et installez automatiquement le framework de test.
+
+Écrivez une classe Calculatrice dans un dossier « src/Util ». Cette classe doit comporter une unique méthode
+« carre() » et renvoyer le carré d'un nombre passé en paramètre. C'est cette classe que nous testerons
+dans la prochaine partie de ce cours.
