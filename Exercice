@@ -1,7 +1,5 @@
-Installez le composant PHPUnit Bridge au sein de votre projet Symfony.
+Au sein d'une classe CalculatriceTest.php, rédigez un test unitaire permettant de tester la méthode carre()
+ implémentée lors du cas pratique précédent.
 
-Exécutez la commande PHPUnit ainsi générée pour télécharger et installez automatiquement le framework de test.
-
-Écrivez une classe Calculatrice dans un dossier « src/Util ». Cette classe doit comporter une unique méthode
-« carre() » et renvoyer le carré d'un nombre passé en paramètre. C'est cette classe que nous testerons
-dans la prochaine partie de ce cours.
+Appelez 3 fois la méthode assertEquals() pour vous assurer que la méthode testée renvoie toujours la bonne valeur,
+ quelles que soient ses données d'entrée.
