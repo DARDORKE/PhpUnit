@@ -3,6 +3,7 @@
 namespace App\Tests\Util;
 
 use App\Util\Calculatrice;
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 class CalculatriceTest extends TestCase
