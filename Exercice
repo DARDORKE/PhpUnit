@@ -1,5 +1,7 @@
-Au sein d'une classe CalculatriceTest.php, rédigez un test unitaire permettant de tester la méthode carre()
- implémentée lors du cas pratique précédent.
+Ajoutez une condition à la méthode carre() de la classe Calculatrice levant une exception de type
+InvalidArgumentException si la valeur passée en argument ne correspond pas à un nombre entier.
 
-Appelez 3 fois la méthode assertEquals() pour vous assurer que la méthode testée renvoie toujours la bonne valeur,
- quelles que soient ses données d'entrée.
+Créez une nouvelle classe de test « ExceptionTest » dont l'unique méthode testException()
+doit permettre de tester l'exception que vous venez de rédiger dans la classe Calculatrice.
+
+Pour ce faire, favorisez l'utilisation de l'annotation vue dans cette partie.
