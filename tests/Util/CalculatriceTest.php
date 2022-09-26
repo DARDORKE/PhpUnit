@@ -3,17 +3,26 @@
 namespace App\Tests\Util;
 
 use App\Util\Calculatrice;
-use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 class CalculatriceTest extends TestCase
 {
 
-    public function testCarre()
+    /**
+     * @dataProvider carreProvider
+     */
+    public function testCarre($value, $expect)
     {
-        $carre = new Calculatrice();
-        $this->assertEquals(16, $carre->carre(4));
-        $this->assertEquals(4, $carre->carre(2));
-        $this->assertEquals(9, $carre->carre(3));
+        $calculatrice = new Calculatrice();
+        $this->assertSame($expect, $calculatrice->carre($value));
+    }
+
+    public function carreProvider(): array
+    {
+        return [
+            [2 , 4],
+            [4, 16],
+            [5, 25],
+        ];
     }
 }
