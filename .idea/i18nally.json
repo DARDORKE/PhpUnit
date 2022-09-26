@@ -39,7 +39,7 @@
     } ]
   } ],
   "ignores" : {
-    "valuesInProject" : [ "use strict", "Le paramètre $number doit être un entier" ],
+    "valuesInProject" : [ "use strict", "Le paramètre $number doit être un entier", "Bienvenue M. " ],
     "valuesInFile" : { },
     "filesInProject" : [ ],
     "unignoredFunctionNames" : [ ],
