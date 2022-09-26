@@ -1,7 +1,7 @@
-Ajoutez une condition à la méthode carre() de la classe Calculatrice levant une exception de type
-InvalidArgumentException si la valeur passée en argument ne correspond pas à un nombre entier.
+Reprenez votre classe CalculatriceTest pour y intégrer une méthode fournisseuse de
+données renvoyant un tableau de 3 tableaux pour tester le carré des valeurs 2, 4 et 5.
 
-Créez une nouvelle classe de test « ExceptionTest » dont l'unique méthode testException()
-doit permettre de tester l'exception que vous venez de rédiger dans la classe Calculatrice.
+Utilisez l'annotation @dataProvider pour préciser à votre méthode de test la méthode
+fournisseuse de données précédemment mise en place.
 
-Pour ce faire, favorisez l'utilisation de l'annotation vue dans cette partie.
+Utilisez la méthode assertSame() pour tester les différentes valeurs ainsi fournies.
